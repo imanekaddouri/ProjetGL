@@ -113,8 +113,9 @@
 	        <h3><a href="ajouterproduit.jsp">Ajouter un nouveau produit</a></h3>
 	        <table border="1">
 	        	<th>nom de produit</th>
-	        	<th>Prix</th>
+	        	<th>prix</th>
 	        	<th>fournisseur</th>
+	        	<th>action</th>
 	    
 	        	
 				<c:forEach var="Produit" items="${listProduit}" varStatus="status">
